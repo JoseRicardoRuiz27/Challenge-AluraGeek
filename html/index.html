@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <div class="todo">
+        <div class="header">
+            <img src="../IMG/image 1.png" height="40px">
+            <h1 class="titulo">AluraGeek</h1>
+        </div>
+
+        <div class="menu">
+            <h2 class="productos__desplazar busqueda"><a href="#productos__id">Productos</a></h2>
+            <h2 class="productos__desplazar busqueda"><a href="#agregar__productos__id">Agregar Productos</a></h2>
+        </div>
+
+
+            <h2 class="productos__titulo">Productos:</h2>
+        <div class="productos" id="productos__id">
+            <div>
+            <ul class="lista_productos" alt="lista productos" data-lista></ul>
+        </div>
+        </div>
+
+
+        <div class="agregar__productos" id="agregar__productos__id">
+            <h2 class="agrgar__productos__titulo">Agregar <br> Productos</h2>
+
+            <form class="formulario__envio" data-formulario>
+                <fieldset class="formulario__campo">
+                    <input name="nombre" id="nombre" class="campo__escrita" type="text" minlength="3" required
+                        placeholder="Nombre" data-nombre>
+                    <span class="mensaje__error"></span>
+                </fieldset>
+                <fieldset class="formulario__campo">
+                    <input name="precio" id="precio" class="campo__escrita" type="number" 
+                    required placeholder="Precio" data-precio>
+                    <span class="mensaje__error"></span>
+                </fieldset>
+                <fieldset class="formulario__campo">
+                    <input name="image" id="img" class="campo__escrita" type="text" 
+                    required placeholder="Imagen" data-imagen>
+                    <span class="mensaje__error"></span>
+                </fieldset>
+
+                <input class="formulario__boton" type="submit" value="Enviar"/>
+                <input class="formulario__boton2" type="reset" value="Borrar"/>
+            </form>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="titulo__footer">
+            <img src="../IMG/image 1.png" height="40px">
+            <h1 class="titulo">AluraGeek</h1>
+        </div>
+        <h2>Creado Por Jose Ruiz</h2>
+    </footer>
+
+    <script src="../js/mostrarLista.js" type="module"></script>
+    <script src="../js/añadirProducto.js" type="module"></script>
+</body>
+
+</html>
