@@ -1,0 +1,122 @@
+:root{
+    --main-color: #5300c8;
+    --color-titulo-producto: #e5e5e5;
+    --color-borde: #bfbfbf;
+}
+
+
+/*Header Tiutlo Busqueda*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: var(--main-color);
+}
+
+.titulo{
+    color: var(--color-titulo-producto);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(#5300c8, #ffffff);
+    height: 145px;
+}
+.busqueda a:link, :visited, :hover, :active{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*Producto*/
+.productos{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 20px;
+    box-shadow: -7px -12px 10px 0px rgba(191,191,191,1);
+    width: 76%;
+    height: 550px;
+    margin-left: 156px;
+    background-color: #fef6f6;
+    overflow: scroll;
+}
+
+.productos__titulo{
+    font-size: 39px;
+    margin-left: 154px;
+    color: var(--main-color);
+    height: 70px;
+}
+/*javascript productos*/
+.descripcion-producto{
+    width: 134%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    gap: 2rem;
+    margin: 10px;
+    margin-left: 150px;
+    background-color: var(--main-color);
+    border: solid 3px black; 
+    color: var(--color-titulo-producto);
+}
+
+
+/*Formulario Productos*/
+.agregar__productos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.agrgar__productos__titulo{
+    font-size: 50px;
+    color: var(--main-color);
+}
+
+.formulario__envio{
+    font-size: 40px;
+}
+
+.campo__escrita {
+    width: 50vw;
+    border-radius: 24px;
+    display: block;
+    color: black;
+    padding: 1em
+}
+
+.formulario__boton {
+    padding: 1em 3em;
+    margin: 2em 0;
+    border-radius: 24px;
+    color: #ffffff;
+    background-color: var(--main-color);
+}
+.formulario__boton2{
+    padding: 1em 3em;
+    margin: 2em 0;
+    border-radius: 24px;
+    background-color: var(--color-titulo-producto);
+}
+
+/*Footer*/
+.footer{
+    background-color: var(--main-color);
+}
+.titulo__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-titulo-producto);
+}
+.footer h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-titulo-producto);
+}
