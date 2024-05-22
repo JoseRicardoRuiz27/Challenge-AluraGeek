@@ -15,6 +15,15 @@
 Este proyecto dado por Oracle Alura-Latam utiliza HTML, CSS, JavaScript y JSON para subir productos
 con una imagen, un titulo y el precio a Json-server para proyectarse en la seccion de productos.
 
+# El Usuario
+El usuario podría visualizar los productos a la venta.
+
+El usuario puede subir su producto a la venta con una imagen un precio y el nombre.
+
+# Lo Aprendido
+En este proyecto apredí a utilizar el json-server para mostrar y subir información.
+
+Aprendi a utilizar de una mejor forma el responsive css para mejorar la experiencia del usiario.
 
 # Autor
 [![Linkedin](https://img.shields.io/badge/Linkedin-0072b1?logo=linkedin&logoColor=white&style=for-the-badge)](www.linkedin.com/in/josé-ricardo-ruiz-039838248)
